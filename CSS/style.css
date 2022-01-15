@@ -183,3 +183,28 @@ button:hover{
     padding: 5px;
     text-align: justify;
 }
+/* Footer */
+footer{
+    width: 100%;
+    background-color: rgb(7, 7, 61);
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    padding-bottom: 50px;
+}
+footer h2{
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+footer h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+footer .icon{
+    font-size: 20px;
+    padding-top: 10px;
+}
+footer .fab{
+    margin-right: 10px;
+}
