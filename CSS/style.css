@@ -4,7 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: white;
-    margin: 0 100px;
+    margin: 0 350px;
 }
 
 /* Header */
@@ -14,7 +14,7 @@ header{
     align-items: center;
 }
 #header1{
-    margin-right: 60%;
+    margin-right: 40%;
 }
 #header1:hover{
     background-color: lightgrey;
@@ -27,7 +27,7 @@ nav a{
     text-decoration: none;
     color: black;
     font-weight: 700;
-    margin-right: 50px;
+    margin-right: 10px;
     text-align: center;
 }
 nav a:hover{
@@ -35,7 +35,7 @@ nav a:hover{
 }
 nav .fas{
     font-size: 30px;
-    margin-right: 70px;
+    margin-right: 50px;
     text-align: center;
 }
 nav .fas:hover{
@@ -51,12 +51,12 @@ nav .fas:hover{
 }
 .text{
     width: 650px;
-    margin-right: 300px;
+    margin-right: 10px;
     padding: 0 5px 5px;
     overflow: hidden;
 }
 .text:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: transform 1s ease-in;
     background-color: lightgrey;
 }
@@ -86,4 +86,72 @@ button:hover{
 .influencer-pic:hover{
     transform: scale(1.2) skew(-15deg);
     transition: transform 1s ease-in-out;
+}
+/* Logs */
+
+.Logos{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.log{
+    margin: 30px 60px 30px 100px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+/* Popular Collection */
+#header2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    width: 365px;
+    height: 565px;
+    padding: 15px;
+    border: 20px solid rgba(202, 198, 198, 0.315);
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.items:hover .item{
+    transform: scale(1.1) rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+.items:hover .item-details{
+    transform: scale(1.05);
+    transition: transform 2s ease-in-out;
+}
+.header3{
+    font-weight: 400;
+}
+.ratings{
+    display: flex;
+    align-items: center;
+}
+.star{
+    font-size: 12px;
+    margin-right: 15px;
+}
+.item-details p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+#button2{
+    background-color: white;
+    color: rgb(218, 101, 6);
+    float: right;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+#button2:hover{
+    background-color: gray;
+    color: black;
 }
