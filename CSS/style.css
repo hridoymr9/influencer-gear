@@ -1,0 +1,89 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+/* common styles or utilities*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 0 100px;
+}
+
+/* Header */
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+#header1{
+    margin-right: 60%;
+}
+#header1:hover{
+    background-color: lightgrey;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-right: 50px;
+    text-align: center;
+}
+nav a:hover{
+    background-color: lightgrey;
+}
+nav .fas{
+    font-size: 30px;
+    margin-right: 70px;
+    text-align: center;
+}
+nav .fas:hover{
+    background-color: lightgrey;
+}
+
+/* Influencer added */
+.influencer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 100px;
+}
+.text{
+    width: 650px;
+    margin-right: 300px;
+    padding: 0 5px 5px;
+    overflow: hidden;
+}
+.text:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease-in;
+    background-color: lightgrey;
+}
+.text:hover #header-line{
+    background-color: rgb(147, 165, 177);
+}
+#header-line{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.text.p{
+    text-align: justify;
+}
+button{
+    background-color: rgb(218, 101, 6);
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: gray;
+    color: black;
+}
+.influencer-pic:hover{
+    transform: scale(1.2) skew(-15deg);
+    transition: transform 1s ease-in-out;
+}
