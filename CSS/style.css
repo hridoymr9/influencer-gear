@@ -161,7 +161,7 @@ button:hover{
     grid-template-columns: repeat(2, 1fr);
     margin-top: 150px;
 }
-.join-us:hover{
+.join-us:hover .join-text{
     transform: scale(1.05);
     transition: transform 1s ease-in-out;
     background-color: lightgray;
@@ -261,4 +261,53 @@ footer .fab{
         height: 300px;
     }
 
+}
+/* Media query for tablate */
+
+@media only screen and (min-width:688px) and (max-width:992px){
+    body{
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    header{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #header1{
+        margin-right: 0;
+    }
+    nav{
+        margin-right: 5%;
+    }
+    .influencer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Logos{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .log{
+        margin: 30px 10px 30px 10px;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    #button2{
+        margin-right: 50%;
+    }
+    .join-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
