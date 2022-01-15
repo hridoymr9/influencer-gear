@@ -155,3 +155,31 @@ button:hover{
     background-color: gray;
     color: black;
 }
+/* Influencer Marketing */
+.join-us{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 150px;
+}
+.join-us:hover{
+    transform: scale(1.05);
+    transition: transform 1s ease-in-out;
+    background-color: lightgray;
+}
+.join-us:hover .join-text #header4{
+    background-color: rgb(147, 165, 177);
+}
+.join-us img{
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.join-us img:hover{
+    transform: scale(1.05);
+    transition: transform 1s ease-in-out;
+}
+.join-text{
+    padding: 5px;
+    text-align: justify;
+}
